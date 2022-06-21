@@ -1,0 +1,19 @@
+/* Library Schemas */
+{
+  "title": {
+    "type": "String",
+    "required": true
+  },
+  "artist": {
+    "type": "String"
+  },
+  "album": {
+    "type": "String"
+  },
+  "music": {
+    "type": "String"
+  },
+  "date": {
+    "type": "Date"
+  }
+}

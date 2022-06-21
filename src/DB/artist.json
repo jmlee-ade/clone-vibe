@@ -1,0 +1,23 @@
+/* Artist Schemas */
+{
+  "name": {
+    "type": "String",
+    "required": true,
+    "unique": false
+  },
+  "genre": {
+    "type": "String",
+    "required": true,
+    "unique": false
+  },
+  "debutDate": {
+    "type": "String",
+    "required": false,
+    "unique": false
+  },
+  "image": {
+    "type": "String",
+    "required": true,
+    "unique": false
+  }
+}
