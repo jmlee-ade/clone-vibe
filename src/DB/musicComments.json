@@ -1,0 +1,25 @@
+/* Music Comments Schemas */
+{
+  "comments": {
+    "type": "ObjectId",
+    "required": true,
+    "ref": "Music"
+  },
+  "parent": {
+    "type": "String",
+    "required": true,
+    "unique": true
+  },
+  "writer": {
+    "type": "String",
+    "required": true
+  },
+  "createAt": {
+    "type": "Date",
+    "default": "Date.now"
+  },
+  "modifyAt": {
+    "type": "Date",
+    "default": "Date.now"
+  }
+}

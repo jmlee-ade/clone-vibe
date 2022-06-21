@@ -1,0 +1,19 @@
+/* Music Schemas */
+{
+  "title": {
+    "type": "String",
+    "required": true
+  },
+  "artist": {
+    "type": "String"
+  },
+  "description": {
+    "type": "String"
+  },
+  "lyrics": {
+    "type": "String"
+  },
+  "like": {
+    "type": "Boolean"
+  }
+}

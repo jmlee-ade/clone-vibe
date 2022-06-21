@@ -1,0 +1,27 @@
+/* Album Schemas */
+{
+  "title": {
+    "type": "String",
+    "required": true,
+    "unique": true
+  },
+  "desc": {
+    "type": "String",
+    "required": true,
+    "unique": false
+  },
+  "music": {
+    "type": "ObjectId",
+    "required": true,
+    "ref": "music"
+  },
+  "date": {
+    "type": "Date",
+    "required": false
+  },
+  "genre": {
+    "type": "String",
+    "required": true,
+    "unique": false
+  }
+}
